@@ -13,15 +13,17 @@ create/activate/deactivate venv
 ```bash
 python -m venv venv
 .\venv\Scripts\activate
-. venv/bin/activate
 .\venv\Scripts\deactivate
 ```
+
+activate on linux: `source venv/bin/activate`
 
 install packages with activated env and check
 
 ````bash
 python -m pip install --upgrade pip
-pip install --upgrade -r ./requirements.txt 
+pip install --upgpip install --upgrade -r ./requirements.txt 
+rade -r ./requirements.txt 
 pip list
 ````
 
