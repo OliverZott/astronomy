@@ -4,38 +4,24 @@ Various examples and astronomy related training projects.
 
 ## Prerequisites
 
-[environments](https://code.visualstudio.com/docs/python/environments)
-
 ### pip
 
-create/activate/deactivate venv
-
 ```bash
+# Create/activate/deactivate venv
 python -m venv venv
 .\venv\Scripts\activate
+source venv/bin/activate
 .\venv\Scripts\deactivate
-```
 
-activate on linux: `source venv/bin/activate`
-
-install packages with activated env and check
-
-````bash
+# Install packages with activated env and check
 python -m pip install --upgrade pip
-pip install --upgpip install --upgrade -r ./requirements.txt 
-rade -r ./requirements.txt 
+pip install --upgrade -r ./requirements.txt 
 pip list
-````
 
-Freeze current packages  
-
-- `pip freeze > pip_list.txt   (to freeze current state)`
-or  
-- `python -m pip freeze > pip_list.txt`
-
-upgrade requirements-file  
-
-- `pip install --upgrade --force-reinstall -r requirements.txt`
+# Freeze and Upgrade current packages  
+pip freeze > pip_list.txt   
+pip install --upgrade --force-reinstall -r requirements.txt
+```
 
 ### conda
 
@@ -61,4 +47,13 @@ upgrade requirements-file
 
 ### Usefull tools (VS Code)
 
+Settings:
+
+- create settings file
+- `format on save enable`
+- `format notebook enable`
+
+Tools
+
+- install Autopep8 extension
 - **markdownlint** by  David Anson

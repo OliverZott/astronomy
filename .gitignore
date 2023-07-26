@@ -8,6 +8,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# IDE
+.idea
+
 *.bundle.*
 lib/
 node_modules/

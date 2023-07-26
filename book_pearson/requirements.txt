@@ -1,4 +1,10 @@
+# Jupyter
 jupyterlab
 IPython
-matplotlib
-autopep8
+
+# Plotting
+# matplotlib
+
+
+# Tools
+# autopep8

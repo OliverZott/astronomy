@@ -15,3 +15,12 @@ _sigma = 5.670374 * math.pow(10, -8)
 
 # Boltzmann constant
 _k = 1.380649 * math.pow(10, -23)
+
+# Proton mass
+p_m = 1.6726 * math.pow(10, -27)
+
+# Helium-4 nucleus --> "mass defect" of binding energy of nucleons
+h_nuc = 6.643 * math.pow(10, -27)
+
+# Luminosity of sun (total amount of electromagnetic energy emitted per unit of time [Joule/sec])
+l_sun = 3.8 * math.pow(10, 26)

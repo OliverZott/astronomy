@@ -1,8 +1,21 @@
-# Astronomy Examples
+# Astronomie - Die kosmische Perspektive
 
-Just some astronomy examples
+3rd. Edition
 
 ## Content
+
+### Chapter 4 - Basics
+
+- Momentum & Force
+- Newton's law of motion
+- Conservation laws: Conservation of...
+  - linear momentum
+  - angular momentum
+  - energy
+
+### Chapter 5 - Light and matter
+
+## Prerequisites
 
 ## TODO
 
