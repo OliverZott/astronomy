@@ -1,0 +1,13 @@
+# Jupyter
+jupyterlab
+IPython
+
+
+# Plotting
+matplotlib
+
+# math
+numpy
+
+# Tools
+# autopep8
