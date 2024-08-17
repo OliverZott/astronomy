@@ -10,4 +10,5 @@ matplotlib
 numpy
 
 # Tools
-# autopep8
+# ruff # formatter, linter
+# mypy # Type annoataion linter
