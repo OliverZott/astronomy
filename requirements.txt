@@ -5,6 +5,7 @@ IPython
 
 # Plotting
 matplotlib
+plotly
 
 # math
 numpy
