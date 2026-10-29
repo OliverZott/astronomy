@@ -1,6 +1,6 @@
 name: astro_env
 dependencies:
-  - python=3.11
+  - python=3.15
   - jupyterlab
   - matplotlib
   - astropy

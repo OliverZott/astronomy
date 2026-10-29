@@ -1,8 +1,6 @@
 [tool.mypy]
 ignore_missing_imports = true
-exclude = [
-    "build/",
-]
+exclude = ["build/"]
 
 [tool.ruff]
 # Exclude a variety of commonly ignored directories.
@@ -40,7 +38,6 @@ target-version = "py312"
 extend-include = ["*.ipynb"]
 
 
-
 # --------------------------------------------------------------------------------------------------
 # Specific ruff linting rules
 [tool.ruff.lint]
@@ -53,7 +50,6 @@ ignore = []
 # Allow fix for NO enabled rules (when `--fix`) is provided.
 fixable = ["ALL"]
 unfixable = []
-
 
 
 # --------------------------------------------------------------------------------------------------
@@ -72,9 +68,7 @@ indent-style = "space"
 line-ending = "auto"
 
 
-
 # --------------------------------------------------------------------------------------------------
 # Specific ruff isort rules
-[tool.ruff.isort]
+[tool.ruff.lint.isort]
 force-single-line = true
-

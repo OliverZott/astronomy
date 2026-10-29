@@ -1,6 +1,5 @@
-python>=3.11
+python>=3.15
 jupyterlab
 IPython
 astropy
 matplotlib
-autopep8

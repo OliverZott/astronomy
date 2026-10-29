@@ -2,13 +2,15 @@
 jupyterlab
 IPython
 
-
 # Plotting
 matplotlib
 plotly
 
 # math
 numpy
+
+# astronomy
+astropy
 
 # Tools
 # ruff # formatter, linter
