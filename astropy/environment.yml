@@ -4,3 +4,4 @@ dependencies:
   - jupyterlab
   - matplotlib
   - astropy
+  - astroquery>=0.4.8
